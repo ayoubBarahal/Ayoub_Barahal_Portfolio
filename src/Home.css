@@ -1,3 +1,4 @@
+@media (min-width: 768px) {
 .App {
   background-color: #282c34;
   font-family: "Playwrite DE Grund", cursive;
@@ -74,7 +75,6 @@
   font-weight: bold;
   text-decoration: none;
   padding-top: 30px;
-
 }
 
 .App-a:visited {
@@ -104,12 +104,13 @@
 
 .box1 {
   background-color: gray;
-  width: 600px;
-  height: 300px;
+  width: 550px;
+  height: 220px;
   border-radius: 15px;
   margin: 30px;
   border: 2px solid gray;
   padding-left: 15px;
+  padding-top: 80px;
 }
 
 
@@ -221,3 +222,80 @@
   margin-right: 40px;
 }
 
+}
+
+@media (max-width: 767px) {
+  .App {
+    background-color: #282c34;
+    font-family: "Playwrite DE Grund", cursive;
+  
+  }
+  .box1 {
+    background-color: gray;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 30px;
+    border: 2px solid gray;
+    padding-left: 15px;
+    padding-top: 80px;
+  }
+
+  .box2 {
+    background-color: gray;
+    width: 260px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 25px;
+    border: 2px solid gray;
+  }
+  .box3 {
+    background-color: gray;
+    width: 260px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 25px;
+    border: 2px solid gray;
+  
+  }
+
+  .box4 {
+    background-color: gray;
+    width: 260px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 25px;
+    border: 2px solid gray;
+  }
+
+  .box6 {
+    background-color: gray;
+    width: 260px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 25px;
+
+    border: 2px solid gray;
+    margin-bottom: 50px;
+  }
+  .App-main {
+
+   
+    font-size: calc(10px + 2vmin);
+    color: white;
+    height: 1400px;
+    margin-top: 40px;
+  }
+  .App-a:visited {
+    color: white ;
+  }
+  
+
+
+
+
+}

@@ -1,3 +1,5 @@
+@media (min-width: 768px) {
+
 .About {
     background-color: black;
     font-family: "Playwrite DE Grund", cursive;
@@ -53,4 +55,32 @@
   
 .icon {
     margin-right: 40px;
+}
+}
+@media (max-width: 767px) {
+    .About {
+        background-color:#282c34;
+        font-family: "Playwrite DE Grund", cursive;
+        color: white;
+        height: 900px;
+    }
+    
+    .App-a {
+        margin-right: 25px ;
+        font-weight: bold;
+        text-decoration: none;
+      
+    }
+    .App-header {
+
+        padding: 20px;
+        padding-left: 70px;
+    }
+    .box5 {
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+
+
 }

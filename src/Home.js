@@ -35,11 +35,6 @@ function Home() {
     window.open(pdfurl,'_blank');
   }
 
-  
-
-  
-
-
   return (
     <div className="App">
       <div className="App-header">
@@ -50,7 +45,6 @@ function Home() {
       <main className='App-main'>
         <div className='conatiner1'>
           <div className='box1'>
-            <img className='mypic' src='mrRobot.webp' rel='work bitch'></img>
             <h2>Hey , I'am Ayoub &#x1F44B;	</h2>
             <h3>Software Engineer Student &#x1F4BB;	</h3>
           </div>
